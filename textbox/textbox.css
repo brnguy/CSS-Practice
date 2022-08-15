@@ -1,0 +1,51 @@
+div {
+    margin-bottom: 50px;
+}
+
+#search {
+    border-radius: 5px;
+}
+
+
+#google-search {
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+#email-input {
+    width: 350px;
+}
+
+#agree {
+    height: 50px;
+    width: 350px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: rgb(80, 80, 251,0.8);
+}
+
+#profile-pic {
+    width: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100%;
+    vertical-align: middle;
+}
+
+#twitter-status {
+    border: none;
+    margin: 0px 10px;
+}
+
+#tweet {
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 60px;
+    color: white;
+    background-color: rgb(138, 202, 242);
+    margin-left: 10px;
+}
