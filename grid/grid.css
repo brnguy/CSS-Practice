@@ -1,0 +1,30 @@
+div {
+    margin-bottom: 20px;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.blue {
+    background-color: lightblue;;
+}
+
+#div1 {
+    display: grid;
+    grid-template-columns: 200px 75px;
+}
+
+#div2 {
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+
+}
+#div3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px
+}
+
+
