@@ -1,0 +1,68 @@
+div {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#p1 {
+    width: 200px;
+    background-color: lightblue;
+}
+
+#p2 {
+    width: 75px;
+    background-color: pink;
+}
+
+#p3 {
+    width: 50px;
+    background-color: lightblue;
+}
+
+#p4 {
+    flex: 1;
+    background-color: pink;
+}
+
+#p5 {
+    width: 75px;
+    background-color: lightblue;
+}
+
+#div3 {
+    justify-content: space-between;
+}
+
+.pink {
+    background-color: lightpink;
+}
+
+#div4 {
+    height: 50px;
+    border: 1px solid gray;
+    justify-content: space-between;
+}
+
+#notification-screen {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    width: 500px;
+}
+
+p {
+    margin: 7px;
+}
+
+.notification-line {
+    margin: 0px 15px;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+.notification-number {
+    color: white;
+    font-weight: 500;
+    background-color: rgb(119, 119, 253);
+    border-radius: 20px;
+    padding: 5px 15px;
+}
